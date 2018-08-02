@@ -41,15 +41,18 @@ This program is based on Campbell Barton's sphinx_doc_gen.py script
 #            the Brian update. I added the "pass" statement generation there.
 
 #2016-June: modifications by Robert Forsman for use with pycharm
+
+#2018-08-02: Modifications by Mark Boszko for use with PyCharm 2018.2 on macOS
+
 script_help_msg = '''
 Usage:
-- Run this script from blenders root path:
+- Run this script from Blender's root path:
 
-    .\blender.exe -b -P doc\python_api\pypredef_gen.py
+    ./blender.app/Contents/MacOS/blender -b -P python_api/pypredef_gen.py
 
-  This will generate PyDev python predefiniton files (for Eclipse) in doc\python_api\pypredef\,
-  assuming that .\blender.exe is the blender executable, and you have placed this script in
-  .\doc\python_api\ Blender's subdirectory.
+  This will generate PyDev python predefiniton files (for Eclipse) in python_api\pypredef\,
+  assuming that .\blender.app is the blender app package, and you have placed this script in
+  .\python_api\ Blender's subdirectory.
 '''
 
 '''
