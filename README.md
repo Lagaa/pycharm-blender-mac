@@ -7,11 +7,12 @@ This source code is originally derived from [pydev-blender.zip](http://airplanes
 
 ## Versions
 
-This document assumes these software versions. Earlier or later versions may not work the same way.
+This document assumes these software versions, as these were current when this repo was built and tested. Earlier or later versions may not work the same way.
 
 - Blender 2.79b
-- Python 3.5.3
 - PyCharm 2018.2
+- Python 3.5.3
+- macOS 10.13.6
 
 ## Set up PyCharm for Blender on macOS
 
