@@ -24,7 +24,12 @@ In PyCharm 2018.2:
 
 - PyCharm > Preferences > Project: [project-name] > Project Interpreter
 - On the Project Interpreter line with the pop-up menu, click on the gear and select Add…
+
+![](readme-images/01-preferences.png)
+
 - Virtualenv > New Environment > select your Python 3.5 location as the Base Interpreter.
+
+![](readme-images/02-add-python-interpreter.png)
 
 Now your project should use the same Python as is embedded in Blender.
 
@@ -45,9 +50,18 @@ $ ./refresh_python_api
 This will create Python predefinition files for the Blender Python API in the folder `/Applications/Blender/python_api/pypredef`. Now we'll need to add this path to PyCharm so it will know to look there for the definitions.
 
 - Open the menu PyCharm > Preferences > Project: [project-name] > Project Interpreter
-- In the Project Interpreter pop-up menu, scroll to the bottom of the list, click Show All…
+- On the Project Interpreter line with the pop-up menu, click on the gear and select Show All…
+
+![](readme-images/03-preferences.png)
+
 - Select the virtualenv that you're using for this project, and click the Paths button at the bottom. (It's the one that looks like a folder with two files indented underneath.)
+
+![](readme-images/04-project-interpreters.png)
+
 - In the Interpreter Paths window, click the `+` button to add a new path, and select the `/Applications/Blender/python_api/pypredef` folder.
+
+![](readme-images/05-interpreter-paths.png)
+
 - Click `OK` a bunch of times to get out of Preferences.
 - It may take a minute to process the new definitions. If so, you'll see a small progress bar in the bottom status bar of your PyCharm window.
 
